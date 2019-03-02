@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu {
+	background: #f2f2f2;
+	padding: 10px 0px;
+}
+.menu ul {
+	margin: 0;
+	padding: 0;
+}
+.menu ul li {
+	margin: ;
+	list-style: none;
+	display: inline-block;
+}
+.menu ul li a {
+	padding: 10px 20px;
+	text-decoration: none;
+	display: block;
+	color: #000;
+	font-size: 20px;
+	font-family: Open sans;
+}
+
+.header {
+	background: url(images/banner.jpg);
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+	background-repeat: no-repeat;
+    text-align: center;
+	padding: 100px 0px;
+}
+.header-content h1 {
+	color: #fff;
+	font-size: 50px;
+	margin: 0;
+	padding: 20px 0;
+	font-family: Open sans;
+}
+.header-content p {
+	color: #fff;
+	font-size: 30px;
+	margin: 0;
+	padding: 20px 0;
+	font-family: Open sans;
+}

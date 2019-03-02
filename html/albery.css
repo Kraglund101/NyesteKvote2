@@ -1,0 +1,297 @@
+.albery-container, .pagination-container {
+	position: relative;
+	/* center it */
+
+	/*margin-left: auto;
+	margin-right: auto;*/
+	width: 400px;
+	overflow: hidden;
+}
+
+.albery-wrapper {
+	position: relative;
+	height: auto;
+	width: 1600px;
+}
+.albery-item {
+	position: relative;
+	float: left;
+	width: 400px;
+	/*cursor: zoom-in;*/
+}
+.albery-item img {
+	width: 100%;
+}
+
+.move-left, .move-right {
+	position: absolute;
+	width: 18%;
+	top: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.move-left a, .move-right a {
+	display: block;
+	text-decoration: none;
+	color: rgba(255,255,255,0.5);
+	transition: all .5s;
+	border-top: 34px solid transparent;
+	border-bottom: 34px solid transparent;
+	width: 0;
+	height: 0;
+}
+.move-left a:hover, .move-right a:hover {
+	color: rgba(255,255,255,0.9);
+}
+.move-left a {
+	border-right: 34px solid rgba(255,255,255,0.5);
+}
+.move-right a {
+	border-left: 34px solid rgba(255,255,255,0.5);
+}
+
+.move-left {
+	left: 0;
+}
+
+.move-right {
+	right: 0;
+}
+.pagination-container {
+	margin-top: 15px;
+	margin-left: 37px;
+	overflow: hidden;
+	width: 925px !important;
+	max-width: 100%;
+}
+.pagination-wrapper {
+	position:relative;
+	height: auto;
+	width: 1600px;
+}
+.pagination-item {
+	position: relative;
+	float: left;
+	width: 144px;
+	margin-right: 13px;
+	cursor: pointer;
+}
+.pagination-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.slider-item-1 {
+	background: url('slider-image/data-science.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 192px 0px;
+	text-align: center;
+}
+.slider-item-2 {
+	background: url('slider-image/2.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 230px 0px;
+	text-align: center;
+}
+.slider-item-3 {
+	background: url('slider-image/3.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 235px 0px;
+	text-align: center;
+}
+.slider-item-4 {
+	background: url('slider-image/4.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 245px 0px;
+	text-align: center;
+}
+.slider-item-5 {
+	background: url('slider-image/5.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 215px 0px;
+	text-align: center;
+}
+.slider-item-6 {
+	background: url('slider-image/6.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 245px 0px;
+	text-align: center;
+}
+.container {
+	margin-left: 25%;
+
+}
+.move-left, .move-right {
+	opacity: .3;
+}
+.move-left:hover,.move-right:hover {
+	opacity: 1;
+}
+.slider-item-1 h2, h1 {
+	max-width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 30px;
+	font-family: Catamaran;
+	text-align:left;
+	text-shadow: 2px 2px 8px #111;
+}
+.slider-item-1 p {
+	max-width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 20px;
+	font-family: Catamaran;
+	text-align:left;
+	text-shadow: 2px 2px 8px #111;
+}
+.slider-item-2 h1 {
+	max-width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 30px;
+	font-family: Catamaran;
+}
+.slider-item-2 p {
+	max-width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 20px;
+	font-family: Catamaran;
+	text-align:left;
+	text-shadow: 4px 4px 15px #111;
+}
+.slider-item-3 h1 {
+	max-width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 30px;
+	font-family: Catamaran;
+}
+.slider-item-3 p {
+	max-width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 20px;
+	font-family: Catamaran;
+	text-align:left;
+	text-shadow: 4px 4px 15px #111;
+}
+
+.slider-item-4 h1 {
+	max-width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 30px;
+	font-family: Catamaran;
+}
+.slider-item-4 p {
+	max-width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 20px;
+	font-family: Catamaran;
+	text-align:left;
+	text-shadow: 4px 4px 15px #111;
+}
+.slider-item-5 h1 {
+	max-width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 30px;
+	font-family: Catamaran;
+}
+.slider-item-5 p {
+	max-width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 20px;
+	font-family: Catamaran;
+	text-align:left;
+	text-shadow: 4px 4px 15px #111;
+}
+.slider-item-6 h1 {
+	max-width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 30px;
+	font-family: Catamaran;
+}
+.slider-item-6 p {
+	max-width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 20px;
+	font-family: Catamaran;
+	text-align:left;
+	text-shadow: 4px 4px 15px #111;
+}
+#kontakt{
+    background-image: url("../billeder/bagrund.jpg");
+    background-size: 100% 100%px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+.contact-title{
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+.contact-title h2{
+    font-size: 32px;
+    line-height: 10px;
+    color: white;
+    font-family: Catamaran;
+}
+.contact-title h3{
+    font-size: 16px;
+    color: white;
+    font-family: Catamaran;
+}
+form{
+    margin-top: 50px;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input{
+    height:45px;
+}
+
+form .submit{
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
